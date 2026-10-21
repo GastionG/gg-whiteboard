@@ -9,7 +9,7 @@ const components: TLComponents = {
 export default function Whiteboard() {
   return (
     <div className="whiteboard">
-      <Tldraw components={components} />
+      <Tldraw components={components} persistenceKey='gg-whiteboard' />
     </div>
   )
 }
