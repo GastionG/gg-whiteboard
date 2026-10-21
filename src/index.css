@@ -9,3 +9,13 @@ body,
   position: fixed;
   inset: 0;
 }
+
+.export-panel {
+  display: flex;
+  gap: 8px;
+  pointer-events: all;
+}
+
+.export-panel-file {
+  display: none;
+}
